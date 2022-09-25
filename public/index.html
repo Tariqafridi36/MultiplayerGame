@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Multi Player</title>
+<style src="./css/style.css"></style>
+</head>
+<body>
+
+    <style>
+
+        body{
+            margin: 0;
+            height: 100vh;
+            flex-direction: column;
+            display: flex;
+            overflow-y: hidden;
+        }
+        
+        .main { 
+            height: 100%;
+            text-align: center; 
+            display: flex;
+            padding: 20px;
+            overflow-y: hidden ;
+             
+        }
+        .main .player{
+            width: 17%; 
+            margin-left: 20px;
+            padding-top: 20px; 
+            background-color: rgb(139, 139, 161);
+        }
+        .player .success {
+           
+            align-items: center;
+            position: absolute;
+            bottom: 10px;
+            width: 16.5%
+        }
+    </style>
+   
+  
+
+   <div><button class="button">Start Round</button> 
+     
+    <div class="message"></div>
+     <div id="secret"></div> </div>
+    <div id="palyersDiv" class="main players">
+        
+    </div>
+   
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" ></script>
+    <script src="/socket.io/socket.io.js" ></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
+ 
+ 
+
+ 

@@ -1,0 +1,10 @@
+#palyersDiv {
+  width: 50%;
+  display: flex;
+  height: 50vh;
+  bottom: 0;
+}
+
+#palyersDiv .player {
+  width: 10%;
+}
